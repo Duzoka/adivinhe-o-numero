@@ -21,6 +21,7 @@ function adivinharNumero() {
           display.textContent = `O número é menor`;
         } else if (numeroAdivinhado == randomNumber) {
           display.textContent = `Você ganhou`;
+          recarregarPagina();
         }
       }
     }
